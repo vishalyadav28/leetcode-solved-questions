@@ -1,6 +1,6 @@
 # leetcode-solved-questions
 
-  ## Programming language -
+  ## programming languages -
   1. Python
   2. Ruby
 
