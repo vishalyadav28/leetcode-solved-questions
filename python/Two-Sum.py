@@ -11,12 +11,12 @@ class Solution:
 #Solution #2
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
-        # hash={}
-        # for key,value in enumerate(nums):
-        #     n = target - value
-        #     if n not in hash:
-        #         hash[value] = key
-        #     else:
-        #         return [hash[n],key]
+        hash={}
+        for key,value in enumerate(nums):
+            n = target - value
+            if n not in hash:
+                hash[value] = key
+            else:
+                return [hash[n],key]
 
         
