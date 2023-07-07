@@ -7,3 +7,10 @@
 
 This repository will get updated daily/weekly/monthly and will try to push every possible question either related to the array, hash, queue, linked list, tree, etc.
 ### So let's get started.
+
+
+## Note : 
+### use "-" instead of whitespace to search for the file 
+### example : 
+Remove Element
+Remove-Element
