@@ -13,18 +13,18 @@ class Solution:
         # return nums.index(target)
 
         #solution 3
-        # if target in nums:
-        #     return(nums.index(target)) 
-        # if len(nums) == 1:
-        #     if target > nums[0]:
-        #         return 1
-        #     else:
-        #         return 0    
+        if target in nums:
+            return(nums.index(target)) 
+        if len(nums) == 1:
+            if target > nums[0]:
+                return 1
+            else:
+                return 0    
             
-        # else:
-        #     for i in range(len(nums)-1):
-        #         if target < nums[i]:
-        #             return (i)
-        #         if nums[i] < target and nums[i+1] > target:
-        #             return(i+1)
-        #     return(len(nums))
+        else:
+            for i in range(len(nums)-1):
+                if target < nums[i]:
+                    return (i)
+                if nums[i] < target and nums[i+1] > target:
+                    return(i+1)
+            return(len(nums))
