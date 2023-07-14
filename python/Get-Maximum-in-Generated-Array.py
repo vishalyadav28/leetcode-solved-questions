@@ -1,4 +1,4 @@
-# 1646. Get Maximum in Generated Array
+# 1646. class Solution:
 
 class Solution:
     def getMaximumGenerated(self, n: int) -> int:
