@@ -1,5 +1,6 @@
 # 1646. Get Maximum in Generated Array
 
+
 class Solution:
     def getMaximumGenerated(self, n: int) -> int:
         tb=[0,1]
