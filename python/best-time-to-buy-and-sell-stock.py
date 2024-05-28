@@ -22,6 +22,17 @@ class Solution:
         #         buy = sell
         #     sell += 1
         # return max_profit
+        min_price = float('inf')
+        max_price = 0
+
+        for price in prices:
+            if price < min_price:
+                min_price = price
+            else:
+                current_price = price - min_price
+                if current_price > max_price:
+                    max_price = current_price
+        return max_price
 
 
 
